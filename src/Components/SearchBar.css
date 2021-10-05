@@ -1,0 +1,35 @@
+.search__bar__container {
+  position: relative;
+}
+
+.search__bar__input {
+  margin-top: 10px;
+  margin-left: 0px;
+  padding: 0px;
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border-color: lightslategray;
+  position: fixed;
+}
+
+.search__bar__input::placeholder {
+  color: gray;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.search__bar__button {
+  position: fixed;
+  top: 14px;
+  border-radius: 5px;
+  z-index: 2;
+  border: none;
+  height: 25px;
+  width: 70px;
+  cursor: pointer;
+  color: black;
+  background-color: gainsboro;
+  right: 40px;
+}
+
